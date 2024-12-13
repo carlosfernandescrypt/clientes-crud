@@ -2,6 +2,28 @@
 
 Este projeto implementa um sistema de gerenciamento de clientes com um front-end desenvolvido em React e um back-end em Java com Spring Boot. Ele permite cadastrar, listar, editar e excluir clientes.
 
+## Screenshots
+
+### Login
+
+![App Screenshot](https://github.com/carlosfernandescrypt/clientes-crud/blob/main/imgs/Captura%20de%20tela%202024-12-13%20104122.png)
+
+### Formulario de Clientes (Admin)
+
+![App Screenshot](https://github.com/carlosfernandescrypt/clientes-crud/blob/main/imgs/Captura%20de%20tela%202024-12-13%20104136.png)
+
+### Lista de Clientes (Admin)
+
+![App Screenshot](https://github.com/carlosfernandescrypt/clientes-crud/blob/main/imgs/Captura%20de%20tela%202024-12-13%20104419.png)
+
+### Lista de Clientes (Usuario)
+
+![App Screenshot](https://github.com/carlosfernandescrypt/clientes-crud/blob/main/imgs/Captura%20de%20tela%202024-12-13%20104438.png)
+
+
+
+
+
 ## Estrutura do Projeto
 
 1. **Back-end**:
