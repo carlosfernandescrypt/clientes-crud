@@ -93,7 +93,7 @@ Authorization: Basic {credenciais em base 64 no formato usuário:senha}
 
 - **POST /login**
 
-  Realiza a autenticação do usuário e retorna um token JWT.
+  Realiza a autenticação do usuário e incoporta um Authorization no cabeçalho.
 
   - **Body (JSON):**
 
