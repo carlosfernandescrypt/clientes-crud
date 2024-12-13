@@ -60,7 +60,12 @@ O servidor iniciará em `http://localhost:8080`.
 
 3. Configure a URL da API no arquivo `src/api.js`:
    ```javascript
-   export const BASE_URL = "http://localhost:8080";
+   const api = axios.create({
+     baseURL: "http://localhost:8080", // URL do back-end
+     headers: {
+       Authorization: `Basic ${authHeader}`,
+     },
+   });
    ```
 
 4. Inicie o front-end:
