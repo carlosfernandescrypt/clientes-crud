@@ -154,6 +154,14 @@ Authorization: Basic {credenciais em base 64 no formato usuário:senha}
         "nome": "João Silva",
         "email": "joao@email.com",
         "telefone": "(11) 99999-9999"
+         ...
+      },
+    {
+        "id": 2,
+        "nome": "Zé da marmita",
+        "email": "zezinho@gmail.com",
+        "telefone": "(11) 99999-9999"
+        ...
       }
     ]
     ```
