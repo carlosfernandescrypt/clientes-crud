@@ -1,12 +1,12 @@
 import { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom"; // Para redirecionar o usuário após login
+import { useNavigate } from "react-router-dom";
 
 const Login = ({ setAuthenticated }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const navigate = useNavigate(); // Usado para redirecionar o usuário
+  const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -19,11 +19,10 @@ const Login = ({ setAuthenticated }) => {
       });
 
       if (response.status === 200) {
-        // Credenciais válidas
         localStorage.setItem("auth", btoa(`${username}:${password}`));
-        localStorage.setItem("username", username); // Salvar o nome do usuário para verificação
+        localStorage.setItem("username", username);
         setAuthenticated(true);
-        navigate("/"); // Redireciona para a página inicial
+        navigate("/");
       }
     } catch (err) {
       setError("Credenciais inválidas. Tente novamente.");
