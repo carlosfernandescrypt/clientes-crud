@@ -4,7 +4,7 @@ import ClienteForm from "../components/ClienteForm";
 
 const Home = () => {
   const [clienteAtual, setClienteAtual] = useState(null);
-  const username = localStorage.getItem("username"); // Recupera o nome do usuário
+  const username = localStorage.getItem("username");
 
   const handleEdit = (cliente) => {
     setClienteAtual(cliente);
